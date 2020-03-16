@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    font-family: 'Times New Roman';
+}
+body {
+    background: radial-gradient(circle, rgba(100,184,185,1) 0%, rgba(47,55,161,1) 100%);
+}
+
+main{
+    width: 70%;
+    margin:auto;
+}
+
+header .copertina {
+    width: 70%;
+    height: 350px;
+    background-image: url('https://lh3.googleusercontent.com/proxy/C9WtS8cZZvCUN3iyF9t9mC9egqWir22d72Kc-znc-wErxEXF03iriuIKud5bKSoxxY4sk4R6Hy0gqslPK1ZzXYOVdQC2cG0jWayUyhwXFQE');
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    border: 8px solid white;
+    overflow: hidden;
+}
+
+.opaco {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+header h1 {
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    border: 6px solid white;
+    letter-spacing: 10px;
+}
+
+.fas {
+    font-size: 65px;
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header h2 {
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+header nav {
+    width: 70%;
+    margin: auto;
+    height: 65px;
+    background-color: darkblue;
+    text-align: center;
+    overflow: hidden;
+}
+
+.center {
+    padding-top: 20px;
+}
+
+.center a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.left, .right, main section, .right2, .right3 {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+    width: 20%;
+}
+
+main section {
+    float: left;
+    width: 56%;
+    margin-left: 2%;
+    margin right: 2%;
+    margin-bottom: 25px;
+}
+
+section img {
+    width: 100%;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.row::after {
+content: "";
+display: table;
+clear: right;
+}
+
+.right3 {
+    /* clear: both; */
+    margin-bottom: 20px;
+}
+
+.right, .right2, .right3 {
+    float: right;
+    width: 20%;
+}
+
+h3 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.left p, .left a {
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: green;
+}
+
+section p {
+    padding: 5px;
+}
+
+footer {
+    clear: both;
+    background-color: white;
+    margin-top: 25px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: darkblue;
+}
+
+footer p, footer i {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+footer i{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
