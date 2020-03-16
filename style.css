@@ -152,16 +152,17 @@ footer {
     margin: auto;
     text-align: center;
     background-color: darkblue;
+    border-radius: 3px;
 }
 
 footer p, footer i {
     padding-top: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     color: white;
 }
 
 footer i{
     font-size: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
